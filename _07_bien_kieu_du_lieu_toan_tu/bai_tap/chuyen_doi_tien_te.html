@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<form>
+    <table style="text-align: center">
+        <tr>
+            <th>Amount</th>
+            <th></th>
+            <th>From Currency</th>
+            <th></th>
+            <th>To Curency</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><input type="text" name="Amount" id="1"></td>
+            <td></td>
+            <td>
+                <select name="from" id="tien1">
+                    <option value="23000">Viet Nam</option>
+                    <option value="1">USD</option>
+                </select>
+            </td>
+            <td style="width: 30px"></td>
+            <td>
+                <select name="to" id="tien2">
+                    <option value="1">USD</option>
+                    <option value="23000">Viet Nam</option>
+                </select>
+            </td>
+            <td></td>
+            <td><button type="button" style="background-color: blue;color:white" onclick="tinh()" value="convert">convert</button></td>
+        </tr>
+    </table>
+    <p id="result"></p>
+</form>
+<script>
+    function tinh(){
+        let a=parseInt(document.getElementById("1").value);
+        let b=document.getElementById("tien1").value;
+        let c=document.getElementById("tien2").value;
+        let tg=b/c;
+        let kq=a/tg;
+        document.getElementById("result").innerHTML="result: "+kq;
+        }
+</script>
+</body>
+</html>
