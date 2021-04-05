@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h1>caculator</h1>
+<form>
+    <table>
+    <tr>
+        <td colspan="2"><input type="text" id="nhap 1"></td>
+        <td colspan="2"><input type="text" id="nhap 2"></td>
+    </tr>
+    <tr>
+        <td><button type="button" onclick="cong()" value="addition">addition(+)</button></td>
+        <td><button type="button" onclick="tru()" value="subtration">subtration(-)</button></td>
+        <td><button type="button" onclick="nhan()" value="multiplication">multiplication(*)</button></td>
+        <td><button type="button" onclick="chia()" value="division">division(/)</button></td>
+    </tr>
+    </table>
+    <p id="result division"></p>
+</form>
+<script>
+    function cong() {
+        let a=parseInt(document.getElementById("nhap 1").value);
+        let b=parseInt(document.getElementById("nhap 2").value);
+        let c =a+b;
+        document.getElementById("result division").innerHTML="result division :" +c;
+    }
+    function tru() {
+        let a=parseInt(document.getElementById("nhap 1").value);
+        let b=parseInt(document.getElementById("nhap 2").value);
+        let c =a-b;
+        document.getElementById("result division").innerHTML="result division :" +c;
+    }
+    function nhan() {
+        let a=parseInt(document.getElementById("nhap 1").value);
+        let b=parseInt(document.getElementById("nhap 2").value);
+        let c =a*b;
+        document.getElementById("result division").innerHTML="result division :" +c;
+    }
+    function chia() {
+        let a=parseInt(document.getElementById("nhap 1").value);
+        let b=parseInt(document.getElementById("nhap 2").value);
+        let c =a/b;
+        document.getElementById("result division").innerHTML="result division :" +c;
+    }
+</script>
+</body>
+</html>

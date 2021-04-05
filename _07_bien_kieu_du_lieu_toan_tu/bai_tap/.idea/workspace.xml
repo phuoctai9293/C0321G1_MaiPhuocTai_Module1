@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fbf2027-2d0c-4185-8b1b-f185304262eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ung_dung_may_tinh.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuyen_doi_tien_te.html" beforeDir="false" afterPath="$PROJECT_DIR$/chuyen_doi_tien_te.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../thuc_hanh/khai_bao_su_dung_bien.html" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,7 +51,13 @@
       <updated>1617345609525</updated>
       <workItem from="1617345610707" duration="447000" />
       <workItem from="1617352979228" duration="3560000" />
-      <workItem from="1617370437774" duration="3717000" />
+      <workItem from="1617370437774" duration="4938000" />
+      <workItem from="1617437329760" duration="488000" />
+      <workItem from="1617439694631" duration="96000" />
+      <workItem from="1617439791665" duration="5397000" />
+      <workItem from="1617455892705" duration="3465000" />
+      <workItem from="1617542620463" duration="2860000" />
+      <workItem from="1617583795706" duration="324000" />
     </task>
     <servers />
   </component>
@@ -58,9 +65,13 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="548" y="154" key="FileChooserDialogImpl" timestamp="1617346057671">
+    <state x="548" y="154" key="FileChooserDialogImpl" timestamp="1617461103948">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1617346057671" />
+    <state x="548" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1617461103948" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1617442650744">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1617442650744" />
   </component>
 </project>
