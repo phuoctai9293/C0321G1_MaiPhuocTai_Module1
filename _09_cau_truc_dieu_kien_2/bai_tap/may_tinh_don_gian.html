@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .nut {
+            width: 30px;
+            height: 30px;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <td colspan="4"><input type="text" id="nhap" disabled></td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" class="nut" value="1" onclick="nhap.value+=this.value">1</button>
+            </td>
+            <td>
+                <button type="button" class="nut" value="2" onclick="nhap.value+=this.value">2</button>
+            </td>
+            <td>
+                <button type="button" class="nut" value="3" onclick="nhap.value+=this.value">3</button>
+            </td>
+            <td>
+                <button type="button" class="nut" value="+" onclick="nhap.value+=this.value">+</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" class="nut" value="4" onclick="nhap.value+=this.value">4</button>
+            </td>
+            <td>
+                <button type="button" class="nut" value="5" onclick="nhap.value+=this.value">5</button>
+            </td>
+            <td>
+                <button type="button" class="nut" value="6" onclick="nhap.value+=this.value">6</button>
+            </td>
+            <td>
+                <button type="button" class="nut" value="-" onclick="nhap.value+=this.value">-</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" class="nut" value="7" onclick="nhap.value+=this.value">7</button>
+            </td>
+            <td>
+                <button type="button" class="nut" value="8" onclick="nhap.value+=this.value">8</button>
+            </td>
+            <td>
+                <button type="button" class="nut" value="9" onclick="nhap.value+=this.value">9</button>
+            </td>
+            <td>
+                <button type="button" class="nut" value="*" onclick="nhap.value+=this.value">*</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="reset" class="nut" value="C" onclick="nhap.value+=this.value">C</button>
+            </td>
+            <td>
+                <button type="button" class="nut" value="0" onclick="nhap.value+=this.value">0</button>
+            </td>
+            <td>
+                <button type="button" class="nut" value="=" onclick="nhap.value=eval(nhap.value)">=</button>
+            </td>
+            <td>
+                <button type="button" class="nut" value="/" onclick="nhap.value+=this.value">/</button>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
